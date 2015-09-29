@@ -1,0 +1,11 @@
+<ion-view view-title="Messages">
+  <ion-content>
+    <h1>Messages</h1>
+    <label class="item item-input">
+      <span class="input-label">Message</span>
+      <input type="text" ng-model='message'>
+    </label>
+    <button ng-click='send(message)'>Send</button>
+    {{messages}}
+  </ion-content>
+</ion-view>
